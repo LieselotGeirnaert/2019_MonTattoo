@@ -1,4 +1,3 @@
-## Mon.Tattoo
-# Client: MonkeyMonkey bvba
-# Design by Laurent Beuten
-
+# Mon.Tattoo
+**For** MonkeyMonkey bvba
+**Design** by Laurent Beuten
