@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Mon.Tattoo</title>
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/index.css" />
+  </head>
+
+  <body>
+  <header class="header">
+    <h1 class="header__logo">
+      <a href="/index.html"><span class="hidden">Mon.Tattoo</span></a>
+    </h1>
+    <div class="header__nav-icon" onclick="toggleNav()">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </div>
+    <ul class="header__nav">
+      <li>
+        <a href="../MonTattoo/index.html" class="nav__item">Home</a>
+      </li>
+      <li>
+        <a href="../MonTattoo/tattoos.html" class="nav__item">Temporary tattoos</a>
+      </li>
+      <li><a href="../MonTattoo/events.html" class="nav__item active">Events</a></li>
+    </ul>
+    <ul class="header__nav mobile hidden">
+      <li>
+        <a href="../MonTattoo/index.html" class="nav__item">Home</a>
+      </li>
+      <li>
+        <a href="../MonTattoo/tattoos.html" class="nav__item">Temporary tattoos</a>
+      </li>
+      <li><a href="../MonTattoo/events.html" class="nav__item active">Events</a></li>
+    </ul>
+  </header>
+    <section class="center-background part--row">
+      <h2 class="subtitle hidden">Temporary tattoos</h2>
+      <div class="double-line-txt">
+        <p class="bold-txt bold-txt--white">Temporary</p>
+        <p class="bold-txt bold-txt--white bold-txt--outline">Tattoos</p>
+      </div>
+      <p class="intro__p">Receive your quote in less than 5 minutes</p>
+      <button class="button button--yellow-black">Get a quote</button>
+      <ul class="socials">
+        <li><a href="" class="socials__item">Facebook</a></li>
+        <li><a href="" class="socials__item">Instagram</a></li>
+      </ul>
+    </section>
+    <section class="double-screen part--row">
+      <div class="double__text double__text--left">
+        <img
+          src="assets/img/home/make-the-difference.svg"
+          alt="Make the difference icon"
+          class="double__icon"
+          width="200px"
+          width="200px"
+        />
+        <h2 class="subtitle double__subtitle">Make the difference</h2>
+        <p class="double__p">
+          Looking for top notch temporary tattoo's for your brand, event or
+          campaign? Mon.Tattoo has got you covered.
+        </p>
+        <button class="button button--black-white">
+          More info
+        </button>
+      </div>
+      <div class="double__image" id="tattoos__makethedifference">
+      </div>
+    </section>
+    <section class="center center--yellow part--row">
+      <h2 class="subtitle">
+        No limitations. 100% custom.
+      </h2>
+      <p class="center__p">
+        We specialise in making the perfect tattoo's for your organisation. 100%
+        custom. We use the best printin technology has to offer to ensure a
+        beautifully finished product.
+      </p>
+      <button class="button button--black-yellow">Get a quote</button>
+    </section>
+    <section class="center part--row">
+      <h2 class="subtitle hidden">Impressions</h2>
+      <img src="assets/img/home/img.png" alt="" class="center__img" />
+    </section>
+    <section class="list part--row" id="tattoos-why">
+      <h2 class="subtitle">Why Mon.Tattoo</h2>
+      <div class="list__container">
+        <div class="list__item">
+          <img
+            src="assets/img/home/custom.svg"
+            alt="100% custom"
+            class="list__img"
+          />
+          <p class="list__p">100% Custom</p>
+        </div>
+        <div class="list__item">
+          <img
+            src="assets/img/home/plant-based.svg"
+            alt="Plant based inks"
+            class="list__img"
+          />
+          <p class="list__p">Plant based inks</p>
+        </div>
+        <div class="list__item">
+          <img
+            src="assets/img/home/easy-to-apply.svg"
+            alt="Easy to apply"
+            class="list__img"
+          />
+          <p class="list__p">Easy to apply</p>
+        </div>
+        <div class="list__item">
+          <img
+            src="assets/img/home/lasts-6-days.svg"
+            alt="Lasts 6 days"
+            class="list__img"
+          />
+          <p class="list__p">Lasts 6 days</p>
+        </div>
+      </div>
+    </section>
+    <section class="center-box part--row">
+      <div class="center__container">
+        <h2 class="subtitle center__subtitle">
+          Tattoos tell a story you'll never forget
+        </h2>
+      </div>
+      <img src="" alt="" />
+    </section>
+    <section class="materials part--row">
+      <h2 class="subtitle">Wide range of materials</h2>
+      <p class="materials__p">
+        At Mon.Tattoo we offe ra wide range of materials and finishes. Going
+        from solid colours to metallic to holographic and glow in the dark.
+        Nearly anything and everything is possible.
+      </p>
+      <div class="materials__container">
+        <div class="materials__item materials--holo">
+          <p class="materials__title">Holographic</p>
+        </div>
+        <div class="materials__item materials--holo">
+          <p class="materials__title">Holographic</p>
+        </div>
+        <div class="materials__item materials--holo">
+          <p class="materials__title">Holographic</p>
+        </div>
+      </div>
+    </section>
+    <section class="slider-screen slider-screen--black part--row">
+      <h2 class="subtitle slider-screen__subtitle">What our clients say</h2>
+      <div class="slider-screen__slider-container">
+        <span class="arrow arrow--left arrow--white" onclick="plusSlide(-1)"></span>
+        <div class="slider__item">
+          <h3 class="slider__item__title">Balls & Glory</h3>
+          <p class="slider__item__subtitle">Restaurant</p>
+          <p class="slider__item__p">
+            "Looking for top notch temporary tattoo's for your brand, event or
+            campaign? Montattoo has got you covered."
+          </p>
+          <img src="assets/img/home/Bitmap.png" alt="" class="slider__item__img">
+        </div>
+        <div class="slider__item hidden">
+          <h3 class="slider__item__title">Lieselot Geirnaert</h3>
+          <p class="slider__item__subtitle">Restaurant</p>
+          <p class="slider__item__p">
+            sdfsdgs
+          </p>
+        </div>
+        <div class="slider__item hidden">
+          <h3 class="slider__item__title">Lieselot</h3>
+          <p class="slider__item__subtitle">Restaurant</p>
+          <p class="slider__item__p">
+            sdfgqdfhdfh
+          </p>
+        </div>
+        <span class="arrow arrow--right arrow--white" onclick="plusSlide(1)"></span>
+      </div>
+      <div class="slider-screen__bullets">
+        <span class="slider__bullet slider__bullet--white slider__bullet--active" onclick="currentSlide(1)"></span>
+        <span class="slider__bullet slider__bullet--white" onclick="currentSlide(2)"></span>
+        <span class="slider__bullet slider__bullet--white" onclick="currentSlide(3)"></span>
+      </div>
+    </section>
+    <section class="cross cross--yellow part--row">
+      <img
+        src="assets/img/home/story.svg"
+        alt="Tattoos tell a story you'll never forget"
+        class="cross__icon"
+        width="200px"
+      />
+      <h2 class="subtitle cross__subtitle">
+        Tattoos tell a story you'll never forget
+      </h2>
+      <p class="cross__p">Tell your story with our temporary tattoos</p>
+      <button class="button button--black-yellow">More info</button>
+    </section>
+    <footer>
+      <section class="footer">
+        <h2 class="subtitle subtitle--footer">
+          Make the<br />
+          difference
+        </h2>
+        <p>Wiedauwkaai 23F</p>
+        <p>9000 Gent</p>
+        <p class="footer--space">09 398 13 60</p>
+        <p>info@mon.tattoo</p>
+        <div class="footer__socials">
+          <a href="" class="socials__icon"
+            ><img src="assets/img/home/instagram.svg" alt="Montattoo Instagram"
+          /></a>
+          <a href="" class="socials__icon"
+            ><img src="assets/img/home/facebook.svg" alt="Montattoo Facebook"
+          /></a>
+        </div>
+      </section>
+      <img
+        src="assets/img/home/adres-afbeelding.svg"
+        alt="Address"
+        class="footer__address"
+      />
+    </footer>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
